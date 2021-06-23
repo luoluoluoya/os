@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56280f5b-db8b-46bc-8bd8-b24b828616a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/进程调度.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/分页.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/地址空间.md" beforeDir="false" afterPath="$PROJECT_DIR$/地址空间.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,13 +13,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/进程调度.md">
+        <entry file="file://$PROJECT_DIR$/分页.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="773">
-                <caret line="201" column="42" selection-start-line="201" selection-start-column="42" selection-end-line="201" selection-end-column="42" />
+              <first_editor relative-caret-position="649">
+                <caret line="610" lean-forward="true" selection-start-line="610" selection-end-line="610" />
               </first_editor>
               <second_editor />
             </state>
@@ -37,6 +38,7 @@
       <find>”</find>
       <find>“</find>
       <find>？</find>
+      <find>地址转换</find>
     </findStrings>
     <replaceStrings>
       <replace>create</replace>
@@ -60,14 +62,16 @@
         <option value="$PROJECT_DIR$/受限制行.md" />
         <option value="$PROJECT_DIR$/操作系统介绍.md" />
         <option value="$PROJECT_DIR$/进程调度.md" />
+        <option value="$PROJECT_DIR$/地址空间.md" />
+        <option value="$PROJECT_DIR$/分页.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="900" />
-    <option name="height" value="1048" />
+    <option name="x" value="11" />
+    <option name="y" value="8" />
+    <option name="width" value="832" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -121,17 +125,18 @@
       <updated>1624341156656</updated>
       <workItem from="1624341157731" duration="9209000" />
       <workItem from="1624350581232" duration="3189000" />
+      <workItem from="1624409679545" duration="20044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12398000" />
+    <option name="totallyTimeSpent" value="32442000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="900" height="1048" extended-state="0" />
+    <frame x="11" y="8" width="832" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.13539445" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24222799" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -163,13 +168,6 @@
             <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -216,8 +214,38 @@
     <entry file="file://$PROJECT_DIR$/进程调度.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="773">
-            <caret line="201" column="42" selection-start-line="201" selection-start-column="42" selection-end-line="201" selection-end-column="42" />
+          <first_editor relative-caret-position="788">
+            <caret line="211" column="35" selection-start-line="211" selection-start-column="35" selection-end-line="211" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/地址空间.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="535">
+            <caret line="1142" selection-start-line="1142" selection-end-line="1142" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/19.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分页.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="649">
+            <caret line="610" lean-forward="true" selection-start-line="610" selection-end-line="610" />
           </first_editor>
           <second_editor />
         </state>
