@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56280f5b-db8b-46bc-8bd8-b24b828616a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/虚拟地址空间.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/分页.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/地址空间.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多处理器调度.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/进程.md" beforeDir="false" afterPath="$PROJECT_DIR$/进程.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进程调度.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/虚拟地址空间.md" beforeDir="false" afterPath="$PROJECT_DIR$/虚拟地址空间.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +12,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/虚拟地址空间.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="554">
+                <caret line="636" column="2" lean-forward="true" selection-start-line="636" selection-start-column="2" selection-end-line="636" selection-end-column="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -60,10 +68,11 @@
         <option value="$PROJECT_DIR$/进程调度.md" />
         <option value="$PROJECT_DIR$/多处理器调度.md" />
         <option value="$PROJECT_DIR$/进程.md" />
+        <option value="$PROJECT_DIR$/虚拟地址空间.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="11" />
     <option name="y" value="8" />
     <option name="width" value="832" />
@@ -122,17 +131,19 @@
       <workItem from="1624341157731" duration="9209000" />
       <workItem from="1624350581232" duration="3189000" />
       <workItem from="1624409679545" duration="20044000" />
-      <workItem from="1624496478393" duration="12962000" />
+      <workItem from="1624496478393" duration="13239000" />
+      <workItem from="1624525554633" duration="4613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45404000" />
+    <option name="totallyTimeSpent" value="50294000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="11" y="8" width="832" height="1100" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24200426" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5945596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -193,22 +204,8 @@
     <entry file="file://$PROJECT_DIR$/images/15.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/分页.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/进程调度.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/分页.md" />
+    <entry file="file://$PROJECT_DIR$/进程调度.md" />
     <entry file="file://$PROJECT_DIR$/操作系统介绍.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -219,24 +216,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/虚拟地址空间.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="962">
-            <caret line="352" column="34" lean-forward="true" selection-start-line="352" selection-start-column="34" selection-end-line="352" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多处理器调度.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/多处理器调度.md" />
     <entry file="file://$PROJECT_DIR$/进程.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -252,6 +232,16 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="-304">
             <caret line="8" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/虚拟地址空间.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="554">
+            <caret line="636" column="2" lean-forward="true" selection-start-line="636" selection-start-column="2" selection-end-line="636" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>
