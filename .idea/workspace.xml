@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56280f5b-db8b-46bc-8bd8-b24b828616a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/虚拟地址空间.md" beforeDir="false" afterPath="$PROJECT_DIR$/虚拟地址空间.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/并发.md" beforeDir="false" afterPath="$PROJECT_DIR$/并发.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,13 +11,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/虚拟地址空间.md">
+        <entry file="file://$PROJECT_DIR$/并发.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="554">
-                <caret line="636" column="2" lean-forward="true" selection-start-line="636" selection-start-column="2" selection-end-line="636" selection-end-column="2" />
+              <first_editor relative-caret-position="201">
+                <caret line="2359" column="8" lean-forward="true" selection-start-line="2359" selection-start-column="8" selection-end-line="2359" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -69,13 +68,14 @@
         <option value="$PROJECT_DIR$/多处理器调度.md" />
         <option value="$PROJECT_DIR$/进程.md" />
         <option value="$PROJECT_DIR$/虚拟地址空间.md" />
+        <option value="$PROJECT_DIR$/并发.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="11" />
     <option name="y" value="8" />
-    <option name="width" value="832" />
+    <option name="width" value="800" />
     <option name="height" value="1100" />
   </component>
   <component name="ProjectView">
@@ -83,7 +83,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,6 +94,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,14 +133,15 @@
       <workItem from="1624409679545" duration="20044000" />
       <workItem from="1624496478393" duration="13239000" />
       <workItem from="1624525554633" duration="4613000" />
+      <workItem from="1624583771922" duration="19256000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50294000" />
+    <option name="totallyTimeSpent" value="69550000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="8" width="832" height="1100" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5945596" />
@@ -241,7 +242,17 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="554">
-            <caret line="636" column="2" lean-forward="true" selection-start-line="636" selection-start-column="2" selection-end-line="636" selection-end-column="2" />
+            <caret line="627" column="22" selection-start-line="627" selection-start-column="22" selection-end-line="627" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/并发.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="201">
+            <caret line="2359" column="8" lean-forward="true" selection-start-line="2359" selection-start-column="8" selection-end-line="2359" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
