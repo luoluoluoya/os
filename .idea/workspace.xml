@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="56280f5b-db8b-46bc-8bd8-b24b828616a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/并发.md" beforeDir="false" afterPath="$PROJECT_DIR$/并发.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/持久性.md" beforeDir="false" afterPath="$PROJECT_DIR$/持久性.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/虚拟地址空间.md" beforeDir="false" afterPath="$PROJECT_DIR$/虚拟地址空间.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/进程.md" beforeDir="false" afterPath="$PROJECT_DIR$/进程.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,20 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/并发.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="201">
-                <caret line="2359" column="8" lean-forward="true" selection-start-line="2359" selection-start-column="8" selection-end-line="2359" selection-end-column="8" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -69,6 +59,7 @@
         <option value="$PROJECT_DIR$/进程.md" />
         <option value="$PROJECT_DIR$/虚拟地址空间.md" />
         <option value="$PROJECT_DIR$/并发.md" />
+        <option value="$PROJECT_DIR$/持久性.md" />
       </list>
     </option>
   </component>
@@ -78,11 +69,15 @@
     <option name="width" value="800" />
     <option name="height" value="1100" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,7 +89,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,17 +128,18 @@
       <workItem from="1624496478393" duration="13239000" />
       <workItem from="1624525554633" duration="4613000" />
       <workItem from="1624583771922" duration="19256000" />
+      <workItem from="1624934530130" duration="2784000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69550000" />
+    <option name="totallyTimeSpent" value="72290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5945596" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.59324324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -238,21 +233,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/虚拟地址空间.md">
+    <entry file="file://$PROJECT_DIR$/并发.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="554">
-            <caret line="627" column="22" selection-start-line="627" selection-start-column="22" selection-end-line="627" selection-end-column="22" />
+          <first_editor relative-caret-position="1436">
+            <caret line="2361" column="46" lean-forward="true" selection-start-line="2361" selection-start-column="46" selection-end-line="2361" selection-end-column="46" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/并发.md">
+    <entry file="file://$PROJECT_DIR$/虚拟地址空间.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="201">
-            <caret line="2359" column="8" lean-forward="true" selection-start-line="2359" selection-start-column="8" selection-end-line="2359" selection-end-column="8" />
+          <first_editor relative-caret-position="274">
+            <caret line="462" lean-forward="true" selection-start-line="462" selection-end-line="462" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/持久性.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="535">
+            <caret line="803" column="33" selection-start-line="803" selection-start-column="33" selection-end-line="803" selection-end-column="33" />
           </first_editor>
           <second_editor />
         </state>
