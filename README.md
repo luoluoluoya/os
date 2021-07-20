@@ -9,6 +9,7 @@
 ---
 ### CSAPP
 * [系统漫游](./docs/系统漫游.md)
+* [信息的表示和处理](./docs/信息的表示和处理.md)
 ---
 ### Garbage Collection
 * [垃圾回收](./docs/垃圾回收.md)
